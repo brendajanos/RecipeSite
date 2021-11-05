@@ -6,6 +6,7 @@
   justify-items: center;
   align-items: center;
   padding: 40px 24px;
+  background-color: #e8e3f09c;
 }
 .app_searchForm {
   margin-top: 18px;
@@ -26,4 +27,29 @@
   border: 2px solid #ad88e99c;
   border-radius: 4px;
   color:whitesmoke;
+  cursor: pointer;
+}
+
+.app__submit:hover {
+  padding: 6px 16px;
+  font-size: 15px;
+  margin-left: 6px;
+  background-color: #d4cae29c;
+  border: 2px solid #ad88e99c;
+  border-radius: 4px;
+  color:#ad88e99c;
+  cursor:pointer;
+}
+
+.app__recipes{
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: 230px 230px;
+  align-items: baseline;
+}
+
+.app__healthLabels {
+  padding: 7px 8px;
+  margin-left: 6px;
+  border-radius: 4px;
 }

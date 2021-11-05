@@ -27,7 +27,7 @@ function App() {
 
   return (
     <div className="app">
-      <h1 onClick={getRecipes}>🍔Food Recipe Plaza🍔</h1>
+      <h1 onClick={getRecipes}>🍔Food Recipes🍔</h1>
       <form className="app_searchForm" onSubmit={onSubmit}>
         <input
           type="text"
@@ -43,10 +43,18 @@ function App() {
           <option onClick={() => sethealthLabel("paleo")}>Paleo</option>
           <option onClick={() => sethealthLabel("kosher")}>Kosher</option>
           <option onClick={() => sethealthLabel("low-sugar")}>Low-sugar</option>
-          <option onClick={() => sethealthLabel("keto-friendly")}>Keto-friendly</option>
-          <option onClick={() => sethealthLabel("dairy-free")}>Dairy-free</option>
-          <option onClick={() => sethealthLabel("gluten-free")}>Gluten-free</option>
-          <option onClick={() => sethealthLabel("peanut-free")}>Peanut-free</option>
+          <option onClick={() => sethealthLabel("keto-friendly")}>
+            Keto-friendly
+          </option>
+          <option onClick={() => sethealthLabel("dairy-free")}>
+            Dairy-free
+          </option>
+          <option onClick={() => sethealthLabel("gluten-free")}>
+            Gluten-free
+          </option>
+          <option onClick={() => sethealthLabel("peanut-free")}>
+            Peanut-free
+          </option>
         </select>
       </form>
 

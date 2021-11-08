@@ -6,7 +6,8 @@
   justify-items: center;
   align-items: center;
   padding: 40px 24px;
-  background-color: #e8e3f09c;
+  background: rgba(138, 190, 230, 0.247); /* Old browsers */
+  height:1400px;
 }
 .app_searchForm {
   margin-top: 18px;
